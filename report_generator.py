@@ -77,8 +77,6 @@ def generate_html_report(fastq_file, output_html="quality_report.html"):
         recommendations.append("⚠️ Read length is short. Check for adapter contamination.")
     else:
         recommendations.append("✓ Read length is appropriate for your analysis.")
-    
-    # Generate HTML
     html_content = f"""
     <!DOCTYPE html>
     <html lang="en">

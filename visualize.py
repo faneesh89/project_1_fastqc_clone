@@ -133,4 +133,4 @@ if __name__ == "__main__":
     plot_read_length_distribution(fastq_file)
     
     print()
-    print("✓ All visualizations complete!")
+    print("All visualizations complete!")

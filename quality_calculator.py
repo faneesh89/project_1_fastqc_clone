@@ -98,10 +98,6 @@ def detect_bad_cycles(avg_qualities, threshold=20):
     Returns:
         list: tuples of (position, quality) for positions below threshold
     
-    Example:
-        >>> avg_qual = [35, 38, 37, 15, 36, 38]  # Position 4 is bad
-        >>> detect_bad_cycles(avg_qual, threshold=20)
-        [(4, 15)]  # Returns position 4 with quality 15
     """
     bad_cycles = []
     
